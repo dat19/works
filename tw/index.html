@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -21,120 +20,93 @@
         background-repeat: no-repeat;
         background-size: 1rem 1rem;
       }
+      .rounded { border-radius: 0.25rem !important; }
+      .img-fluid { max-width: 100%; height: auto; }
     </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">ゲーム学科卒業制作作品集 -専門学校デジタルアーツ東京2019年度生-</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                  <li class="active"><a href="https://dat19.github.io/works/index.html">Home</a></li>
-                  <li><a href="https://dat19.github.io/works/ac/index.html">Animal Casino</a></li>
-                  <li><a href="https://dat19.github.io/works/fis/index.html">Flying in the sky</a></li>
-                  <li><a href="https://dat19.github.io/works/tw/index.html">会社でおもちゃダンジョン</a></li>
-                  <li><a href="">SyuNeiARPG</a></li>
-                  <li><a href="">CouleurOffrir</a></li>
-              </ul>
-          </div>
-          <!--/.nav-collapse -->
-      </div>
-  </nav>
-
     <div class="container">
         <div class="starter-template">
 
-            <div class="row">
-              <div class="col-sm-12">
-                <h2 id="fis">会社でおもちゃダンジョン</h2>
+          <div class="row">
+            <div class="col-xs-12">
+
+              <a href="https://dat19.github.io/works/">
+                <h1>ゲーム学科卒業制作作品集<br>
+                <small>専門学校デジタルアーツ東京 -2019年度生-</small></h1>
+              </a>
+
+              <h2 id="fis">会社でおもちゃダンジョン</h2>
+
+              <img src="../images/toywars.png" class="rounded img-fluid" alt="会社でおもちゃダンジョン">
+
+              <p>　会社内にいる敵に倒されずにゴールを目指そう。</p>
+
+              <h3><i class="fa fa-laptop" aria-hidden="true"></i> 動作環境</h3>
+              <p><i class="fab fa-windows"></i>Windows10・・・
+                <a href="https://am1.jp/dat/dat20/fis.zip" download=""><i class="fas fa-cloud-download-alt"></i>ダウンロード(.zip)</a>
+              </p>
+              <hr>
+
+              <h3><i class="fa fa-gamepad" aria-hidden="true"></i> 操作方法</h3>
+              <ul>
+                  <li>Wキー(↑)：上移動</li>
+                  <li>Sキー(↓)：下移動</li>
+                  <li>Aキー(←)：左移動</li>
+                  <li>Dキー(→)：右移動</li>
+                  <li>左クリック：弾の発射</li>
+                  <li>Eキー：武器を拾う</li>
+                  <li>マウスホイール回転：武器の切り替え</li>
+              </ul>
+
+              <hr>
+
+              <h3><i class="fa fa-leaf" aria-hidden="true"></i> ルール</h3>
+              <p>会社内にあるゴールへと向かう。</p>
+
+              <hr>
+
+              <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 使用アセット</h3>
+              <ul>
+                <li>音楽 <a href="https://maoudamashii.jokersounds.com/">魔王魂</a> 様</li>
+                <li>音楽(ボスあらわる！) <a href="https://conte-de-fees.com/586.html">こんとどぅふぇ HiLi-ひぃ-</a> 様</li>
+                <li>効果音 <a href="http://www.skipmore.com/">SKIPMORE.</a> 様</li>
+                <li>効果音 <a href="https://taira-komori.jpn.org/">小森平</a> 様</li>
+                <li>フォント(IPAexゴシック) <a href="https://moji.or.jp/ipafont/">IPA</a> 様</li>
+              </ul>
+
+              <hr>
+
+              <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 開発メンバーと担当作業</h3>
+              <ul>
+                <li>養田竜宣(ボスの動き、武器を拾う、切り替え、武器の表示)</li>
+                <li>原田聖也(敵、弾の処理、ダメージ処理、カメラシネマシーン)</li>
+                <li>町田加生(マップ)</li>
+                <li>ながたきあきひろ(キャラ、タイトル画面)</li>
+                <li>松村陽喜(マップチップ)</li>
+                <li>山戸かりん(敵デザイン)</li>
+              </ul>
+
+              <hr>
+
+              <a class="btn btn-primary" href="#">Topに戻る</a>
+
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <img src="../images/toywars.png" class="rounded img-fluid" alt="会社でおもちゃダンジョン">
-              </div>
-            </div>
+
             <hr>
-            <div class="row">
-              <div class="col-sm-12">
-                <p>　会社内にいる敵に倒されずにゴールを目指そう。</p>
-                <h3><i class="fa fa-laptop" aria-hidden="true"></i> 動作環境</h3>
-                <p><i class="fab fa-windows"></i>Windows10・・・
-                  <a href="https://am1.jp/dat/dat20/fis.zip" download=""><i class="fas fa-cloud-download-alt"></i>ダウンロード(.zip)</a>
-                </p>
-                <hr>
-                <h3><i class="fa fa-gamepad" aria-hidden="true"></i> 操作方法</h3>
-                <ul>
-                    <li>Wキー(↑)：上移動</li>
-                    <li>Sキー(↓)：下移動</li>
-                    <li>Aキー(←)：左移動</li>
-                    <li>Dキー(→)：右移動</li>
-                    <li>左クリック：弾の発射</li>
-                    <li>Eキー：武器を拾う</li>
-                    <li>マウスホイール回転：武器の切り替え</li>
-                </ul>
 
-                <h3><i class="fa fa-leaf" aria-hidden="true"></i> ルール</h3>
-                <p>会社内にあるゴールへと向かう。</p>
-
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="row">
-              <div class="col-12">
-                <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 使用アセット</h3>
-                <ul>
-                  <li>音楽 <a href="https://maoudamashii.jokersounds.com/">魔王魂</a> 様</li>
-                  <li>音楽(ボスあらわる！) <a href="https://conte-de-fees.com/586.html">こんとどぅふぇ HiLi-ひぃ-</a> 様</li>
-                  <li>効果音 <a href="http://www.skipmore.com/">SKIPMORE.</a> 様</li>
-                  <li>効果音 <a href="https://taira-komori.jpn.org/">小森平</a> 様</li>
-                  <li>フォント(IPAexゴシック) <a href="https://moji.or.jp/ipafont/">IPA</a> 様</li>
-                </ul>
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="row">
-              <div class="col-12">
-                <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 開発メンバーと担当作業</h3>
-                <ul>
-                  <li>養田竜宣(ボスの動き、武器を拾う、切り替え、武器の表示)</li>
-                  <li>原田聖也(敵、弾の処理、ダメージ処理、カメラシネマシーン)</li>
-                  <li>町田加生(マップ)</li>
-                  <li>ながたきあきひろ(キャラ、タイトル画面)</li>
-                  <li>松村陽喜(マップチップ)</li>
-                  <li>山戸かりん(敵デザイン)</li>
-                </ul>
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="row starter-template">
-            <a class="btn btn-primary" href="#">Topに戻る</a>
-        </div>
-        <hr>
-        <div class="copyright">Copyright (C) 2020-2021 専門学校デジタルアーツ東京 ゲーム学科  会社でおもちゃダンジョンチーム<div>
+        <div class="copyright">Copyright (c) 2020-2021 専門学校デジタルアーツ東京 ゲーム学科  会社でおもちゃダンジョンチーム</div>
         <div><a href="https://github.com/twbs/icons/blob/master/LICENSE.md">Copyright (c) 2019 The Bootstrap Authors</a></div>
     </div>
+  </div>
     <!-- /.container -->
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0ce5b94735.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

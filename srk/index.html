@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -7,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Flying in the sky</title>
+    <title>スニーキングカイル</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/slate/bootstrap.min.css">
     <style>
@@ -27,6 +26,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="starter-template">
 
@@ -38,11 +38,16 @@
                   <small>専門学校デジタルアーツ東京 -2019年度生-</small></h1>
                 </a>
 
-                <h2 id="fis">Flying in the sky</h2>
+                <h2 id="srk">スニーキングカイル</h2>
 
-                <img src="../images/flying-in-the-sky.png" class="rounded img-fluid" alt="Flying in the sky">
+                <img src="../images/toywars.png" class="rounded img-fluid" alt="スニーキングカイル">
 
-                <p>　島のどこかにあるリングを取ろう。</p>
+                <hr>
+
+                <p>敵に見つからないようにゴールへたどり着きましょう。</p>
+                <p>敵の視界判定のテストとして作成。<br>
+                  又、敵の行動パターンの作成や、その制御を作って見たかったため作成しました。
+                </p>
 
                 <hr>
 
@@ -50,46 +55,47 @@
                 <p><i class="fab fa-windows"></i>Windows10・・・
                   <a href="https://am1.jp/dat/dat20/fis.zip" download=""><i class="fas fa-cloud-download-alt"></i>ダウンロード(.zip)</a>
                 </p>
-
+                <p> <i class="far fa-window-maximize"></i>WebGL・・・<a href="https://unityroom.com/games/escapekyle">unityroom</a></p>
                 <hr>
-
                 <h3><i class="fa fa-gamepad" aria-hidden="true"></i> 操作方法</h3>
                 <ul>
-                  <li>Ｗキー(↑)：飛行機の下降</li>
-                  <li>Ｓキー(↓)：飛行機の上昇</li>
-                  <li>Ａキー(←)：左旋回</li>
-                  <li>Ｄキー(→)：右旋回</li>
+                  <li>W：上方向に移動</li>
+                  <li>A：左方向に移動</li>
+                  <li>S：下方向に移動</li>
+                  <li>D；右方向に移動</li>
+                  <li>LeftShiftを押しながら移動でダッシュ。</li>
+                  <li>Spaceキー : コンソールの操作。</li>
+                  <li>Fキー : エネミーをおびき出すアイテム投擲。</li>
                 </ul>
 
-                <hr>
-
                 <h3><i class="fa fa-leaf" aria-hidden="true"></i> ルール</h3>
-                <p>できるだけ早くリングをとる。</p>
+                <p>敵に見つからないようにキーを拾い、ゴールのゲートまでたどり着く。</p>
+                <p>敵に見つかるとゲームオーバー。</p>
 
                 <hr>
 
                 <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 使用アセット</h3>
-                <ul>
-                  <li><a href="https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351">Standard Assets (for Unity 2018.4)</a></li>
-                  <li><a href="https://assetstore.unity.com/packages/tools/terrain/terrain-toolkit-2017-83490">Terrain Toolkit 2017</a></li>
-                  <li><a href="https://assetstore.unity.com/packages/3d/environments/urban/simple-city-pack-plain-100348">Simple City pack plain</a></li>
-                  <li>AllSkyFree</li>
-                  <li><a href="https://maoudamashii.jokersounds.com/">魔王魂</a></li>
-                  <li><a href="http://www.hmix.net/music_gallery/feeling/cures.htm">H/MIX GALLERY</a></li>
-                </ul>
+                  <h4>UnityAssetStore</h4>
+                    <ul>
+                      <li><a href="https://assetstore.unity.com/packages/3d/characters/robots/space-robot-kyle-4696">Space Robot Kyle</a></li>
+                      <li><a href="https://assetstore.unity.com/packages/3d/characters/creatures/dungeon-skeletons-demo-71087">Dungeon Skeletons Demo</a></li>
+                      <li><a href="https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949">Yughues Free Metal Materials</a></li>
+                      <li><a href="https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490">Grenade Sound FX</a></li>
+                      <li><a href="https://assetstore.unity.com/packages/3d/animations/basic-motions-free-pack-154271">Basic Motions FREE Pack</a></li>
+                      <li><a href="https://assetstore.unity.com/packages/2d/fonts/selected-u3d-japanese-font-337">Selected U3D Japanese Font</a></li>
+                    </ul>
+                  <h4>サウンド</h4>
+                    <ul>
+                      <li><a href="https://maoudamashii.jokersounds.com/">魔王魂</a></li>
+                      <li><a href="https://soundeffect-lab.info/">効果音ラボ</a></li>
+                      <li><a href="https://otologic.jp/">OtoLogic</a></li>
+                    </ul>
 
-                <hr>
+                    <hr>
 
                 <h3><i class="fas fa-dice-d6" aria-hidden="true"></i> 開発メンバーと担当作業</h3>
                 <ul>
-                  <li>新 碧惟(リング・プレイヤーの操作)</li>
-                  <li>鈴木 真輝(プレイヤー操作・マップ)</li>
-                  <li>そう きんい(当たり判定・タイトルシーン)</li>
-                  <li>大屋 しゅんご(マップ)</li>
-                  <li>大澤 諄也(プレイヤー・ビル・信号・道路・橋)</li>
-                  <li>田代 りょー(ビル)</li>
-                  <li>松本 晴香(エフェクト及びリング)</li>
-                  <li>久保田 ゆい(UI・背景作成)</li>
+                  <li>原田　聖也(プログラム)</li>
                 </ul>
 
                 <hr>
@@ -98,12 +104,11 @@
               </div>
             </div>
         <hr>
-        <div class="copyright">Copyright (c) 2020-2021 専門学校デジタルアーツ東京 ゲーム学科  Flying in the skyチーム</div>
+        <div class="copyright">Copyright (c) 2020-2021 専門学校デジタルアーツ東京 ゲーム学科  原田　聖也</div>
         <div><a href="https://github.com/twbs/icons/blob/master/LICENSE.md">Copyright (c) 2019 The Bootstrap Authors</a></div>
     </div>
   </div>
     <!-- /.container -->
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
